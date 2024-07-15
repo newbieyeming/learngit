@@ -1,0 +1,22 @@
+# git init
+创建当前仓库为git库，需要命令行已进入此仓库内
+# git add
+添加到仓库
+# git commit -m "说明"
+提交到仓库，先添加再提交，提交同时写说明
+# git status
+查看情况
+# git diff readme.txt
+查看不同（改动）
+# git log
+查看log
+# git log --pretty=oneline
+查看log，以每个改动一行形式显示，只显示id和改动，当前版本是HEAD
+# git reset --hard HEAD^
+回退版本，hard后跟commit id；或当前版本用HEAD，上版本HEAD^,上上版本HEAD^^,多个版本HEAD~100
+# cat readme.txt
+查看显示文本内容
+# git reflog
+查看每次命令的log，可以看回退或恢复的记录，有commit id
+# git reset HEAD <file>
+把stage区的撤销会工作区
